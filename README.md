@@ -5,5 +5,6 @@ My goal is to apply the wavelet scattering algorithm to extract meaningful featu
 The anticipated outcomes include valuable insights, feature-rich datasets, and predictive models that can serve as a foundation for further research and potential clinical trial solutions.
 
 
-CITATION:
+DATA SOURCE CITATION:  
+
 Jager, F. (2023). Induced Cesarean EHG DataSet (ICEHG DS): An open dataset with electrohysterogram records of pregnancies ending in induced and cesarean section delivery (version 1.0.1). PhysioNet. https://doi.org/10.13026/zw34-n382.
