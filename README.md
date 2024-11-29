@@ -6,5 +6,4 @@ The anticipated outcomes include valuable insights, feature-rich datasets, and p
 
 
 DATA SOURCE CITATION:  
-
 Jager, F. (2023). Induced Cesarean EHG DataSet (ICEHG DS): An open dataset with electrohysterogram records of pregnancies ending in induced and cesarean section delivery (version 1.0.1). PhysioNet. https://doi.org/10.13026/zw34-n382.
