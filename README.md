@@ -1,2 +1,5 @@
 # EHG-Preterm-Signals-Analysis_with-AmossRobert
-I am exploring preterm birth physiology. Using Electrohysterograph signals from PhysioNet (DOI: https://doi.org/10.13026/zw34-n382), I analyze data with wavelet scattering to extract features for training machine learning models. Outcomes include insights, datasets, and models for further studies and clinical solutions.
+This is a personal initiative driven by my interest in exploring the physiology of preterm births, a condition affecting approximately 15 million babies annually worldwide (one in ten births). 
+I am analyzing recorded Electrohysterograph (EHG) signals obtained from PhysioNet (DOI: https://doi.org/10.13026/zw34-n382). 
+My goal is to apply the wavelet scattering algorithm to extract meaningful features from these signals, which can then be used to train machine learning and deep learning models for predicting preterm births. 
+The anticipated outcomes include valuable insights, feature-rich datasets, and predictive models that can serve as a foundation for further research and potential clinical trial solutions.
