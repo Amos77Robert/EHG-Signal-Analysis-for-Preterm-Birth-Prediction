@@ -20,11 +20,13 @@ Preterm is defined as babies born alive before 37 weeks of pregnancy are complet
 In Malawi, UNICEF reported that prematurity was responsible for 33% of neonatal deaths in 2015. In 2020, the National Institutes of Health reported that Malawi has the highest rate of preterm births globally, with rates up to 29.7%.
 
 A recent study at the University Medical Center Ljubljana in Slovenia identifies surface EHG as a promising diagnostic tool for non-invasive automated preterm birth prediction(Jager and F, 2023). This small scale project specifically tries to address difficulties in interpreting EHG signals faced by health workers. I will utilize the preterm physiological dataset created at University Medical Center in Slovenia. A machine learning model will be developed to aid in interpretability of the EHG signals in clinical setting.
-# Data processing techniques being applied
+# Methodology
 1). EHG signal decomposition using wavelet transforms  
-2). Feature extraction in frequency and time domains using scattering algorithm    
-3). Frequency component analysis using digital Fast Fourier Transform  
-4). Power Spectral Density analysis using Welch method
+2). Data analysis  
+    (1). Frequency component analysis using digital Fast Fourier Transform  
+    (2). Power Spectral Density analysis using Welch method    
+3). Feature extraction in frequency and time domains using scattering algorithm 
+4). Experiment with ML models  
 # Tools
 Python, Jupyter Notebook
 # Expected outcomes
