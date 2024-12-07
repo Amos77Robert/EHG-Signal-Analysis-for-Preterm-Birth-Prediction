@@ -11,7 +11,7 @@ Seeks to improve interpretability of the recorded preterm physiological EHG sign
 2). Extract features and perform feature engineering   
 3). Experiment with various computational methods to predict preterm birth type
 # Disclaimer
-This is a personal project driven by curiosity and interest to apply computational intelligence to achieve breakthroughs. It is being conducted during weekends.
+This is a personal project driven by curiosity and interest to apply computational intelligence to better understand nature. It is being conducted during weekends.
 # Description
 It focuses on tackling the global challenge of preterm births. According to the WHO article from 2023, an estimated 13.4 million babies were born preterm in 2020. The article highlights that complications from preterm birth are the leading cause of death among children under five, accounting for 900,000 deaths worldwide in 2019.
 
