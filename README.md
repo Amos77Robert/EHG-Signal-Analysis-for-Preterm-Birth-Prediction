@@ -1,5 +1,5 @@
 # Project type
-Exploratory and experimental research
+Exploratory and experimental 
 # Scope
 Mini
 # Title 
