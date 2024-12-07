@@ -23,8 +23,8 @@ A recent study at the University Medical Center Ljubljana in Slovenia identifies
 # Methodology
 1). EHG signal decomposition using wavelet transforms  
 2). Data analysis  
-    (1). Frequency component analysis using digital Fast Fourier Transform  
-    (2). Power Spectral Density analysis using Welch method    
+            (1). Frequency component analysis using digital Fast Fourier Transform  
+            (2). Power Spectral Density analysis using Welch method    
 3). Feature extraction in frequency and time domains using scattering algorithm 
 4). Experiment with ML models  
 # Tools
