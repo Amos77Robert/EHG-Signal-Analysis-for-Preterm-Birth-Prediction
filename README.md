@@ -5,7 +5,7 @@ Mini
 # Title 
 Electrohysterograph (EHG) for Preterm Birth Signal Analysis
 # Aim
-Seeks to improve interpretability of the recorded physiological EHG signals from pregnant mothers by understanding signal mechanisms which lead to induced and cesarean births.
+Seeks to improve interpretability of the recorded preterm physiological EHG signals from pregnant mothers by understanding signal mechanisms which lead to induced and cesarean births.
 # Objectives
 1). Analyse signals obtained from physionet.org for preterm birth
 2). Extract features and perform feature engineering 
