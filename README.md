@@ -1,4 +1,4 @@
-# Porject type
+# Project type
 Research - exploratory and experimental
 # Scope
 Mini
