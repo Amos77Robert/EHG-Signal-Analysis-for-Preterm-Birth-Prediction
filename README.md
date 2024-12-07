@@ -25,6 +25,8 @@ A recent study at the University Medical Center Ljubljana in Slovenia identifies
 2). Feature extraction in frequency and time domains using scattering algorithm  
 3). Frequency component analysis using digital Fast Fourier Transform
 4). Power Spectral Density analysis using Welch method
+# Tools
+Python, Jupyter Notebook
 # Expected outcomes
 1). Valuable analytical insights
 2). Feature dataset
