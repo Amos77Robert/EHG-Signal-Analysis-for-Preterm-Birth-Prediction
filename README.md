@@ -1,9 +1,7 @@
-# Project type
+# Electrohysterograph (EHG) for Preterm Birth Signal Analysis
 Exploratory and experimental 
 # Scope
 Mini
-# Title 
-Electrohysterograph (EHG) for Preterm Birth Signal Analysis
 # Aim
 Seeks to improve interpretability of the recorded preterm physiological EHG signals from pregnant mothers by understanding signal mechanisms which lead to induced and cesarean births.
 # Objectives
