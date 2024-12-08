@@ -46,6 +46,6 @@ The resolution of the signal acquisition equipment was 16 bits with the amplitud
 2). Feature dataset  
 3). Trained machine learning models
 
-DATA SOURCE:  
+# DATA SOURCE:  
 Jager, F. (2023). Induced Cesarean EHG DataSet (ICEHG DS): An open dataset with electrohysterogram records of pregnancies ending in induced and cesarean section delivery (version 1.0.1). PhysioNet. https://doi.org/10.13026/zw34-n382.
 
