@@ -30,6 +30,11 @@ A recent study at the University Medical Center Ljubljana in Slovenia identifies
 5). Experiment with ML models  
 # Tools
 Python, Jupyter Notebook
+# Libraries 
+1). [WFDB](https://wfdb.readthedocs.io/en/latest/)  
+2). [Wevelet Scattering algorithm](https://www.mathworks.com/help/wavelet/ug/wavelet-scattering.html)  
+3). [Welch method](https://docs.scipy.org/doc/scipy/reference/generated/scipy.signal.welch.html)  
+4). [Fast Fourier Transform](https://docs.scipy.org/doc/scipy/reference/generated/scipy.fft.fft.html)  
 # Expected outcomes
 1). Valuable analytical insights  
 2). Feature dataset  
