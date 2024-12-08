@@ -33,7 +33,7 @@ Python, Jupyter Notebook
 2). [Wevelet Scattering algorithm](https://www.mathworks.com/help/wavelet/ug/wavelet-scattering.html)  
 3). [Welch method](https://docs.scipy.org/doc/scipy/reference/generated/scipy.signal.welch.html)  
 4). [Fast Fourier Transform](https://docs.scipy.org/doc/scipy/reference/generated/scipy.fft.fft.html)  
-# Data recording protocol from the source  
+# Data recording protocol from the source(Jager and F, 2023)  
 The records were collected from the abdominal surface using four Ag2Cl electrodes. The electrodes were placed symmetrically above and under the navel, at the distance of 7 cm (see Fig 1).    
 <div align="center">
     <img src="https://github.com/Amos77Robert/Electrohysterograph-EHG-for-Preterm-Birth-Signal-Analysis/blob/main/data/Figure_1.jpg" alt="Image Title" width="300">
