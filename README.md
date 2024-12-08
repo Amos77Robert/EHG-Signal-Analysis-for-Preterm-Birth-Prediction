@@ -33,6 +33,11 @@ Python, Jupyter Notebook
 2). [Wevelet Scattering algorithm](https://www.mathworks.com/help/wavelet/ug/wavelet-scattering.html)  
 3). [Welch method](https://docs.scipy.org/doc/scipy/reference/generated/scipy.signal.welch.html)  
 4). [Fast Fourier Transform](https://docs.scipy.org/doc/scipy/reference/generated/scipy.fft.fft.html)  
+# Data recording protocol from the source  
+The records were collected from the abdominal surface using four Ag2Cl electrodes. The electrodes were placed symmetrically above and under the navel, at the distance of 7 cm (see Figure 1).
+[Fig 1: ](
+The acquired EHG records are of length of approximately 30 minutes and consist of three bipolar EHG signals. The first acquired bipolar EHG signal was measured between the upper two electrodes, S1 = E2 - E1, the second bipolar EHG signal between the left two electrodes, S2 = E2 - E3, and the third bipolar EHG signal between the lower two electrodes, S3 = E4 - E3. Prior to sampling, the signals were filtered using an analog anti-aliasing low pass three-pole Butterworth filter with the cutt-off frequency of 5.0 Hz. The sampling frequency, Fs, was 20 Hz. 
+The resolution of the signal acquisition equipment was 16 bits with the amplitude range of ±2.5 mV (A/D value of 13107 units corresponds to 1.0 mV).
 # Expected outcomes
 1). Valuable analytical insights  
 2). Feature dataset  
