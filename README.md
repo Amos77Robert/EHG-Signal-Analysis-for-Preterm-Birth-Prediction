@@ -3,14 +3,14 @@ Exploratory and experimental
 # Scope
 Mini
 # Aim
-Seeks to improve interpretability of the recorded preterm physiological EHG signals from pregnant mothers by understanding signal mechanisms which lead to induced and cesarean births.
+Seeks to improve interpretability of the recorded preterm physiological EHG signals from pregnant mothers by understanding signal mechanisms which lead to induced and cesarean births with the help of machine learning.
 # Objectives
 1). Analyse signals obtained from physionet.org for preterm birth  
 2). Extract features and perform feature engineering   
-3). Experiment with various computational methods to predict preterm birth type
+3). Experiment with various machine learning techniques to predict preterm birth type
 # Disclaimer
 This is a personal project driven by curiosity and interest to apply computational intelligence to better understand nature. It is being conducted during weekends.
-# Description
+# Background
 It focuses on tackling the global challenge of preterm births. According to the WHO article from 2023, an estimated 13.4 million babies were born preterm in 2020. The article highlights that complications from preterm birth are the leading cause of death among children under five, accounting for 900,000 deaths worldwide in 2019.
 
 Preterm is defined as babies born alive before 37 weeks of pregnancy are completed. Sub-categories include: extremely preterm (less than 28 weeks), very preterm (28 to less than 32 weeks) and moderate to late preterm (32 to 37 weeks).
