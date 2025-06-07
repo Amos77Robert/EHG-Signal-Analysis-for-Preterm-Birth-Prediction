@@ -1,4 +1,4 @@
-# Electrohysterograph (EHG) for Preterm Birth Signal Analysis
+# ElEHG Signal Analysis for Preterm Birth Prediction
 Exploratory and experimental 
 # Scope
 Mini
