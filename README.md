@@ -33,7 +33,7 @@ To improve the prediction and interpretability of preterm physiological EHG sign
 
 ## 📖 Background
 
-Preterm birth—defined as delivery before 37 weeks of gestation is a major global health challenge and the leading cause of under-five child mortality.
+Preterm birth is defined as delivery before 37 weeks of gestation is a major global health challenge and the leading cause of under-five child mortality.
 
 Malawi ranks among the highest globally in preterm birth rates, exacerbating neonatal deaths. Recent studies from the University Medical Center Ljubljana underscore the value of **surface Electrohysterograph (EHG) signals** as a non-invasive technique for early prediction.
 
