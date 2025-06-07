@@ -21,7 +21,7 @@ This project focuses on improving the interpretation of EHG signals, which remai
             . Power Spectral Density analysis using Welch method    
 3). Feature extraction in frequency and time domains using scattering algorithm    
 4). Feature engineering  
-5). Experiment with ML models  
+5). Experiment with ML model 
 # Tools
 Python, Jupyter Notebook
 # Libraries 
