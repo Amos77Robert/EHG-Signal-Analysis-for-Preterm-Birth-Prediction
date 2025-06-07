@@ -1,5 +1,5 @@
-# 🧠 EHG Signal Analysis for Preterm Birth Prediction
-
+#  EHG Signal Analysis for Preterm Birth Prediction
+## 📖 Project Overview
 This project explores the use of electrohysterogram (EHG) signal analysis combined with machine learning to predict and interpret different types of preterm birth: **induced**, **cesarean**, or **spontaneous**. It aims to support clinical decision-making by improving signal interpretation using feature engineering and model evaluation.
 
 ---
@@ -17,13 +17,13 @@ This project explores the use of electrohysterogram (EHG) signal analysis combin
 
 ---
 
-## 🎯 Project Aim
+## Project Aim
 
 To improve the prediction and interpretability of preterm physiological EHG signals for classifying birth types using machine learning.
 
 ---
 
-## ✅ Objectives
+## Objectives
 
 1. Analyze preterm EHG signals from PhysioNet to identify underlying patterns.  
 2. Extract and engineer features relevant to birth type classification.  
@@ -31,7 +31,7 @@ To improve the prediction and interpretability of preterm physiological EHG sign
 
 ---
 
-## 🧠 Background
+## 📖 Background
 
 Preterm birth—defined as delivery before 37 weeks of gestation—is a major global health challenge and the leading cause of under-five child mortality.
 
@@ -41,7 +41,7 @@ This project utilizes the Ljubljana dataset to extract diagnostic features from 
 
 ---
 
-## 🔬 Methodology
+## Methodology
 
 1. **Signal Preprocessing**
    - Wavelet decomposition for noise reduction and pattern isolation.
@@ -64,7 +64,7 @@ This project utilizes the Ljubljana dataset to extract diagnostic features from 
 
 ## 🛠️ Tools & Libraries
 
-### 🧪 Tools
+### Tools
 - Python  
 - Jupyter Notebook
 
@@ -106,7 +106,7 @@ Data was collected using **four Ag₂Cl electrodes** placed symmetrically above 
 
 ---
 
-## 🔁 Future Work
+## Future Work
 
 - Apply **PCA (Principal Component Analysis)** to enhance feature selection and reduce noise.  
 - Experiment with additional models including logistic regression, SVMs, and ensemble techniques.  
@@ -114,10 +114,14 @@ Data was collected using **four Ag₂Cl electrodes** placed symmetrically above 
 
 ---
 
-## 🧬 Data Source
+## Data Source
 
 **Jager, F. (2023)**  
 *Induced Cesarean EHG DataSet (ICEHG DS): An open dataset with electrohysterogram records of pregnancies ending in induced and cesarean section delivery.*  
 📥 [PhysioNet DOI](https://doi.org/10.13026/zw34-n382)
+
+## 👤 Contributors  
+- Amoss Robert
+  - Master of Data Science Candidate | Researcher
 
 ---
