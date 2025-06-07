@@ -1,52 +1,123 @@
-# EHG signal analysis for preterm birth prediction
-# Aim
-To improve the prediction and interpretability of preterm physiological EHG signals for identifying birth types (induced, cesarean, or spontaneous) using machine learning.
+# 🧠 EHG Signal Analysis for Preterm Birth Prediction
 
-# Objectives
-1. Analyze preterm EHG signals from physionet.org to understand key patterns
-2. Extract and engineer features relevant for birth type prediction
-3. Develop and evaluate machine learning models to predict and interpret preterm birth types
-   
-# Background
-This project addresses the global challenge of preterm births, a leading cause of under-five child mortality worldwide. Preterm birth refers to babies born before 37 weeks of pregnancy, with varying degrees of prematurity.
+This project explores the use of electrohysterogram (EHG) signal analysis combined with machine learning to predict and interpret different types of preterm birth: **induced**, **cesarean**, or **spontaneous**. It aims to support clinical decision-making by improving signal interpretation using feature engineering and model evaluation.
 
-Malawi has one of the highest preterm birth rates globally, contributing significantly to neonatal deaths. Recent research from the University Medical Center Ljubljana highlights surface Electrohysterograph (EHG) signals as a promising non-invasive tool for automated preterm birth prediction.
+---
 
-This project focuses on improving the interpretation of EHG signals, which remains challenging for health workers, by developing a machine learning model using the preterm physiological dataset from Ljubljana to aid clinical decision-making.
+## 📌 Table of Contents
+- [Project Aim](#project-aim)
+- [Objectives](#objectives)
+- [Background](#background)
+- [Methodology](#methodology)
+- [Tools & Libraries](#tools--libraries)
+- [Data Recording Protocol](#data-recording-protocol)
+- [Results](#results)
+- [Future Work](#future-work)
+- [Data Source](#data-source)
 
-# Methodology
-1). EHG signal decomposition using wavelet transforms  
-2). Data analysis:  
-            . Frequency component analysis using digital Fast Fourier Transform  
-            . Power Spectral Density analysis using Welch method    
-3). Feature extraction in frequency and time domains using scattering algorithm    
-4). Feature engineering  
-5). Experiment with ML model 
-# Tools
-Python, Jupyter Notebook
-# Libraries 
-1). [WFDB](https://wfdb.readthedocs.io/en/latest/)  
-2). [Wevelet Scattering algorithm](https://www.mathworks.com/help/wavelet/ug/wavelet-scattering.html)  
-3). [Welch method](https://docs.scipy.org/doc/scipy/reference/generated/scipy.signal.welch.html)  
-4). [Fast Fourier Transform](https://docs.scipy.org/doc/scipy/reference/generated/scipy.fft.fft.html)  
-# Data recording protocol from the source(Jager and F, 2023)  
-The records were collected from the abdominal surface using four Ag2Cl electrodes. The electrodes were placed symmetrically above and under the navel, at the distance of 7 cm (see Fig 1).    
+---
+
+## 🎯 Project Aim
+
+To improve the prediction and interpretability of preterm physiological EHG signals for classifying birth types using machine learning.
+
+---
+
+## ✅ Objectives
+
+1. Analyze preterm EHG signals from PhysioNet to identify underlying patterns.  
+2. Extract and engineer features relevant to birth type classification.  
+3. Train and evaluate ML models for predictive and interpretable outputs.
+
+---
+
+## 🧠 Background
+
+Preterm birth—defined as delivery before 37 weeks of gestation—is a major global health challenge and the leading cause of under-five child mortality.
+
+Malawi ranks among the highest globally in preterm birth rates, exacerbating neonatal deaths. Recent studies from the University Medical Center Ljubljana underscore the value of **surface Electrohysterograph (EHG) signals** as a non-invasive technique for early prediction.
+
+This project utilizes the Ljubljana dataset to extract diagnostic features from abdominal EHG signals, addressing the clinical interpretability gap through signal decomposition, feature engineering, and predictive modeling.
+
+---
+
+## 🔬 Methodology
+
+1. **Signal Preprocessing**
+   - Wavelet decomposition for noise reduction and pattern isolation.
+
+2. **Frequency Analysis**
+   - Fast Fourier Transform (FFT) for dominant component identification.
+   - Welch’s method for Power Spectral Density estimation.
+
+3. **Feature Extraction**
+   - Time and frequency domain features using wavelet scattering transform.
+
+4. **Feature Engineering**
+   - Normalization and feature selection.
+
+5. **Machine Learning**
+   - Trained initial model using Random Forest classifier.
+   - Evaluation through confusion matrices and performance metrics.
+
+---
+
+## 🛠️ Tools & Libraries
+
+### 🧪 Tools
+- Python  
+- Jupyter Notebook
+
+### 📚 Libraries
+- [WFDB](https://wfdb.readthedocs.io/en/latest/): Reading physiological signals  
+- [Wavelet Scattering](https://www.mathworks.com/help/wavelet/ug/wavelet-scattering.html): Feature transformation  
+- [Welch Method](https://docs.scipy.org/doc/scipy/reference/generated/scipy.signal.welch.html): Spectral density  
+- [FFT](https://docs.scipy.org/doc/scipy/reference/generated/scipy.fft.fft.html): Frequency analysis  
+
+---
+
+## 🧾 Data Recording Protocol
+
+Data was collected using **four Ag₂Cl electrodes** placed symmetrically above and below the navel (7 cm apart):
+
 <div align="center">
-    <img src="https://github.com/Amos77Robert/Electrohysterograph-EHG-for-Preterm-Birth-Signal-Analysis/blob/main/data/Figure_1.jpg" alt="Image Title" width="300">
-    <p><b>Fig 1: Showing surface electrodes on the lower abdomen</b></p>
+    <img src="https://github.com/Amos77Robert/Electrohysterograph-EHG-for-Preterm-Birth-Signal-Analysis/blob/main/data/Figure_1.jpg" alt="EHG Electrode Placement" width="300">
+    <p><b>Fig 1: Electrode placement on the lower abdomen</b></p>
 </div>
-The acquired EHG records are of length of approximately 30 minutes and consist of three bipolar EHG signals. The first acquired bipolar EHG signal was measured between the upper two electrodes, S1 = E2 - E1, the second bipolar EHG signal between the left two electrodes, S2 = E2 - E3, and the third bipolar EHG signal between the lower two electrodes, S3 = E4 - E3. Prior to sampling, the signals were filtered using an analog anti-aliasing low pass three-pole Butterworth filter with the cutt-off frequency of 5.0 Hz. The sampling frequency, Fs, was 20 Hz. 
-The resolution of the signal acquisition equipment was 16 bits with the amplitude range of ±2.5 mV (A/D value of 13107 units corresponds to 1.0 mV).  
 
-# Results of model training
-- Model Tested: Random Forest
-![Random Forest Performance Metrics](https://github.com/Amos77Robert/EHG-Signal-Analysis-for-Preterm-Birth-Prediction/blob/main/experiments/results/Trained%20ML%20models/Random%20Forest%20Performance%20metrics.PNG?raw=true)
+- **Signal Length**: ~30 minutes  
+- **Channels**: 3 bipolar signals  
+- **Sampling Rate**: 20 Hz  
+- **Filter**: Analog low-pass Butterworth, cutoff = 5 Hz  
+- **Resolution**: 16-bit, ±2.5 mV range (1.0 mV = 13,107 A/D units)
 
-## Improvement plans
-- To use PCA technique to filter features and retrain the models again
-- Train on other models such as regression models
-  
-# DATA SOURCE:  
-Jager, F. (2023). Induced Cesarean EHG DataSet (ICEHG DS): An open dataset with electrohysterogram records of pregnancies ending in induced and cesarean section delivery (version 1.0.1). PhysioNet. https://doi.org/10.13026/zw34-n382.
+---
 
+## 📊 Results
 
+**Model Tested**: Random Forest Classifier  
+- **Input**: Extracted features from decomposed EHG signals  
+- **Output**: Birth type classification  
+
+<div align="center">
+  <img src="https://github.com/Amos77Robert/EHG-Signal-Analysis-for-Preterm-Birth-Prediction/blob/main/experiments/results/Trained%20ML%20models/Random%20Forest%20Performance%20metrics.PNG?raw=true" alt="Random Forest Performance" width="600"/>
+  <p><b>Fig 2: Random Forest Performance Metrics</b></p>
+</div>
+
+---
+
+## 🔁 Future Work
+
+- Apply **PCA (Principal Component Analysis)** to enhance feature selection and reduce noise.  
+- Experiment with additional models including logistic regression, SVMs, and ensemble techniques.  
+- Optimize hyperparameters and test generalization on new test sets.
+
+---
+
+## 🧬 Data Source
+
+**Jager, F. (2023)**  
+*Induced Cesarean EHG DataSet (ICEHG DS): An open dataset with electrohysterogram records of pregnancies ending in induced and cesarean section delivery.*  
+📥 [PhysioNet DOI](https://doi.org/10.13026/zw34-n382)
+
+---
