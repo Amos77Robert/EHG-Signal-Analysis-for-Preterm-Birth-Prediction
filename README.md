@@ -1,4 +1,4 @@
-# EHG Signal Analysis for Preterm Birth Prediction
+# EHG signal analysis for preterm birth prediction
 # Aim
 To improve the prediction and interpretability of preterm physiological EHG signals for identifying birth types (induced, cesarean, or spontaneous) using machine learning.
 
