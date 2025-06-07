@@ -7,8 +7,6 @@ To improve the prediction and interpretability of preterm physiological EHG sign
 2. Extract and engineer features relevant for birth type prediction
 3. Develop and evaluate machine learning models to predict and interpret preterm birth types
    
-# Disclaimer
-This is a personal project driven by curiosity and interest to apply computational intelligence to better understand nature. It is being conducted during weekends.
 # Background
 This project addresses the global challenge of preterm births, a leading cause of under-five child mortality worldwide. Preterm birth refers to babies born before 37 weeks of pregnancy, with varying degrees of prematurity.
 
