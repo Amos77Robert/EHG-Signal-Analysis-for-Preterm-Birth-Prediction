@@ -1,23 +1,21 @@
-# ElEHG Signal Analysis for Preterm Birth Prediction
-Exploratory and experimental 
-# Scope
-Mini
+# EHG Signal Analysis for Preterm Birth Prediction
 # Aim
-Seeks to improve interpretability of the recorded preterm physiological EHG signals from pregnant mothers by understanding signal mechanisms which lead to induced and cesarean births with the help of machine learning.
+To improve the prediction and interpretability of preterm physiological EHG signals for identifying birth types (induced, cesarean, or spontaneous) using machine learning.
+
 # Objectives
-1). Analyse signals obtained from physionet.org for preterm birth  
-2). Extract features and perform feature engineering   
-3). Experiment with various machine learning techniques to predict preterm birth type
+1. Analyze preterm EHG signals from physionet.org to understand key patterns
+2. Extract and engineer features relevant for birth type prediction
+3. Develop and evaluate machine learning models to predict and interpret preterm birth types
+   
 # Disclaimer
 This is a personal project driven by curiosity and interest to apply computational intelligence to better understand nature. It is being conducted during weekends.
 # Background
-It focuses on tackling the global challenge of preterm births. According to the WHO article from 2023, an estimated 13.4 million babies were born preterm in 2020. The article highlights that complications from preterm birth are the leading cause of death among children under five, accounting for 900,000 deaths worldwide in 2019.
+This project addresses the global challenge of preterm births, a leading cause of under-five child mortality worldwide. Preterm birth refers to babies born before 37 weeks of pregnancy, with varying degrees of prematurity.
 
-Preterm is defined as babies born alive before 37 weeks of pregnancy are completed. Sub-categories include: extremely preterm (less than 28 weeks), very preterm (28 to less than 32 weeks) and moderate to late preterm (32 to 37 weeks).
+Malawi has one of the highest preterm birth rates globally, contributing significantly to neonatal deaths. Recent research from the University Medical Center Ljubljana highlights surface Electrohysterograph (EHG) signals as a promising non-invasive tool for automated preterm birth prediction.
 
-In Malawi, UNICEF reported that prematurity was responsible for 33% of neonatal deaths in 2015. In 2020, the National Institutes of Health reported that Malawi has the highest rate of preterm births globally, with rates up to 29.7%.
+This project focuses on improving the interpretation of EHG signals, which remains challenging for health workers, by developing a machine learning model using the preterm physiological dataset from Ljubljana to aid clinical decision-making.
 
-A recent study at the University Medical Center Ljubljana in Slovenia identifies surface EHG as a promising diagnostic tool for non-invasive automated preterm birth prediction(Jager and F, 2023). This small scale project specifically tries to address difficulties in interpreting EHG signals faced by health workers. I will utilize the preterm physiological dataset created at University Medical Center in Slovenia. A machine learning model will be developed to aid in interpretability of the EHG signals in clinical setting.
 # Methodology
 1). EHG signal decomposition using wavelet transforms  
 2). Data analysis:  
@@ -43,11 +41,12 @@ The acquired EHG records are of length of approximately 30 minutes and consist o
 The resolution of the signal acquisition equipment was 16 bits with the amplitude range of ±2.5 mV (A/D value of 13107 units corresponds to 1.0 mV).  
 
 # Results of model training
-
+- Model Tested: Random Forest
 ![Random Forest Performance Metrics](https://github.com/Amos77Robert/EHG-Signal-Analysis-for-Preterm-Birth-Prediction/blob/main/experiments/results/Trained%20ML%20models/Random%20Forest%20Performance%20metrics.PNG?raw=true)
 
 ## Improvement plans
 - To use PCA technique to filter features and retrain the models again
+- Train on other models such as regression models
   
 # DATA SOURCE:  
 Jager, F. (2023). Induced Cesarean EHG DataSet (ICEHG DS): An open dataset with electrohysterogram records of pregnancies ending in induced and cesarean section delivery (version 1.0.1). PhysioNet. https://doi.org/10.13026/zw34-n382.
